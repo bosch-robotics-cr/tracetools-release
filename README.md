@@ -1,3 +1,26 @@
+## tracetools (melodic) - 0.2.0-0
+
+The packages in the `tracetools` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic tracetools --edit` on `Mon, 25 Jun 2018 09:31:30 -0000`
+
+The `tracetools` package was released.
+
+Version of package(s) in repository `tracetools`:
+
+- upstream repository: https://github.com/bosch-robotics-cr/tracetools
+- release repository: https://github.com/bosch-robotics-cr/tracetools-release.git
+- rosdistro version: `0.1.0-0`
+- old version: `0.1.0-0`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## tracetools (melodic) - 0.1.0-0
 
 The packages in the `tracetools` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic tracetools --edit` on `Tue, 24 Apr 2018 06:18:09 -0000`
