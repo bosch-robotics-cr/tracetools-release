@@ -13,6 +13,7 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/function.hpp>
+#include <boost/version.hpp>
 #include <stdint.h>
 #include <string>
 #include <typeinfo>
@@ -23,7 +24,7 @@ namespace ros {
 namespace trace {
   template<class P>
   const void* get_ptr(const boost::function<void (P)>& func_ptr) {
-#if BOOST_VERSION <= 106500
+#if BOOST_VERSION <= 106200
     return reinterpret_cast<void*>(func_ptr.functor.func_ptr);
 #else
     return reinterpret_cast<void*>(func_ptr.functor.members.func_ptr);
