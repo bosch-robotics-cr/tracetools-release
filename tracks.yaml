@@ -21,7 +21,7 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://github.com/bosch-robotics-cr/tracetools.git
+    vcs_uri: https://github.com/boschresearch/ros1_tracetools.git
     version: :{auto}
   kinetic:
     actions:
@@ -45,7 +45,7 @@ tracks:
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
-    vcs_uri: https://github.com/bosch-robotics-cr/tracetools
+    vcs_uri: https://github.com/boschresearch/ros1_tracetools
     version: :{auto}
   melodic:
     actions:
@@ -69,5 +69,5 @@ tracks:
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://github.com/bosch-robotics-cr/tracetools
+    vcs_uri: https://github.com/boschresearch/ros1_tracetools
     version: :{auto}
